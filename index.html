@@ -1,0 +1,266 @@
+<head>
+<link rel="icon" href="favicon.ico">
+</head>
+<script>
+function set_visibility() {
+document.getElementById("square").style.display = "none";}
+</script>
+<div id="square" style="width: 815px; height: 700px; background-color: white; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 8px 16px 0 rgba(0, 0, 0, 0.15);">
+</div>
+<script>
+var a = 0
+function set_visibility() {
+if (a === 0){
+a = 1
+document.getElementById('gd-menu5').style.visibility = 'hidden'
+document.getElementById('gd-menu6').style.visibility = 'hidden'
+document.getElementById('gd-menu7').style.visibility = 'hidden'
+document.getElementById('gd-menu8').style.visibility = 'hidden'
+document.getElementById('gd-menu9').style.visibility = 'hidden'
+document.getElementById('gd-menu10').style.visibility = 'hidden'
+document.getElementById('gd-menu11').style.visibility = 'hidden'
+function sleep(waitMsec) {
+var startMsec = new Date();
+while (new Date() - startMsec < waitMsec);}
+sleep(550);
+document.getElementById('square').style.visibility = 'hidden'
+}else{
+a = 0
+document.getElementById('gd-menu5').style.visibility = 'visible'
+document.getElementById('gd-menu6').style.visibility = 'visible'
+document.getElementById('gd-menu7').style.visibility = 'visible'
+document.getElementById('gd-menu8').style.visibility = 'visible'
+document.getElementById('gd-menu9').style.visibility = 'visible'
+document.getElementById('gd-menu10').style.visibility = 'visible'
+document.getElementById('gd-menu11').style.visibility = 'visible'
+function sleep(waitMsec) {
+var startMsec = new Date();
+while (new Date() - startMsec < waitMsec);}
+sleep(550);
+document.getElementById('square').style.visibility = 'visible'}}
+</script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<script>
+function buttonClicked() {
+document.body.style.backgroundImage = "url(si.gif)";
+document.title = "死にたい";}
+</script>
+<script>
+function buttonClicked2() {
+document.body.style.backgroundImage = "url(defo.png)";
+document.title = "Home";}
+</script>
+<script>
+function buttonClicked3() {
+document.body.style.backgroundImage = "url(kuro.png)";
+document.title = "ダーク";}
+</script>
+<script>
+function buttonClicked4() {
+document.body.style.backgroundImage = "url(siro.png)";
+document.title = "ホワイト";}
+</script>
+<script>
+function buttonClicked5() {
+document.body.style.backgroundImage = "url(me1.gif)";
+document.title = "目潰し1";}
+</script>
+<script>
+function buttonClicked6() {
+document.body.style.backgroundImage = "url(me2.gif)";
+document.title = "目潰し2";}
+</script>
+<script>
+function buttonClicked7() {
+document.body.style.backgroundImage = "url(me3.gif)";
+document.title = "目潰し3";}
+</script>
+<style>
+body{
+background-image: url("a.jpg");}
+#gd-menu {
+margin:0;
+position: fixed;
+bottom: 10px;
+left: 10px;}
+#gd-menu2 {
+margin:0;
+position: fixed;
+bottom: 10px;
+left: 148px;}
+#gd-menu3 {
+margin:0;
+position: fixed;
+bottom: 10px;
+left: 250px;}
+#gd-menu4 {
+margin:0;
+position: fixed;
+bottom: 10px;
+right: 10px;}
+#gd-menu5 {
+margin:0;
+position: fixed;
+bottom: 755px;
+left: 560px;}
+#gd-menu6 {
+margin:0;
+position: fixed;
+bottom: 755px;
+left: 667px;}
+#gd-menu7 {
+margin:0;
+position: fixed;
+bottom: 755px;
+left: 844px;}
+#gd-menu8 {
+margin:0;
+position: fixed;
+bottom: 755px;
+left: 952px;}
+#gd-menu9 {
+margin:0;
+position: fixed;
+bottom: 755px;
+left: 1061px;}
+#gd-menu10 {
+margin:0;
+position: fixed;
+bottom: 755px;
+left: 1216px;}
+#gd-menu11 {
+margin:0;
+position: fixed;
+bottom: 700px;
+left: 560px;}
+#gd-menu12 {
+margin:0;
+position: fixed;
+bottom: 10px;
+right: 160px;}
+*,
+*:before,
+*:after {
+-webkit-box-sizing: inherit;
+box-sizing: inherit;}
+html {
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+font-size: 62.5%;}
+.btn,
+a.btn,
+button.btn {
+font-size: 1.6rem;
+font-weight: 700;
+line-height: 1.5;
+position: relative;
+display: inline-block;
+padding: 1rem 4rem;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+-webkit-transition: all 0.3s;
+transition: all 0.3s;
+text-align: center;
+vertical-align: middle;
+text-decoration: none;
+letter-spacing: 0.1em;
+color: #212529;
+border-radius: 0.5rem;}
+a.btn-border {
+margin-bottom: 12px;
+padding: 0;
+-webkit-transition: all 0.3s;
+transition: all 0.3s;
+border-radius: 0;}
+a.btn-border span {
+position: relative;
+display: block;
+padding: 1.25rem 3rem;
+color: #000;
+border: 2px solid #000;
+border-radius: 0.5rem;
+background: #fff;}
+a.btn-border:before {
+position: absolute;
+bottom: -8px;
+left: 0;
+display: block;
+width: 100%;
+height: 14px;
+content: "";
+-webkit-transition: all 0.3s;
+transition: all 0.3s;
+border: 2px solid #000;
+border-top: 1px solid #000;
+border-radius: 0 0 0.5rem 0.5rem;
+background-image: -webkit-repeating-linear-gradient(
+135deg,
+#000,
+#000 1px,
+transparent 2px,
+transparent 5px);
+background-image: repeating-linear-gradient(
+-45deg,
+#000,
+#000 1px,
+transparent 2px,
+transparent 5px);
+background-size: 7px 7px;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;}
+a.btn-border:hover {
+-webkit-transform: translate(0, 3px);
+transform: translate(0, 3px);}
+a.btn-border:hover:before {
+bottom: -5px;}
+a.btn-border:active {
+-webkit-transform: translate(0, 7px);
+transform: translate(0, 7px);}
+a.btn-border:active:before {
+bottom: -1px;}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Home</title>
+<link rel="icon" href="favicon.ico">
+<meta name="google-site-verification" content="6ZzMon_VzD_6WoH8Sl_lkzlF_47s0Yygwh9dDU2JHfQ" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZK7K3YNWQY"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-ZK7K3YNWQY');
+</script>
+</head>
+<body>
+<a class="btn btn-border" href="https://scfcdv.github.io/4444/" target="_blank"><span>カオス</span></a>
+<a class="btn btn-border" href="https://scfcdv.github.io/bennri/" target="_blank"><span>便利</span></a>
+<a class="btn btn-border" href="https://scfcdv.github.io/metubusi/" target="_blank"><span>目潰し</span></a>
+<a class="btn btn-border" href="https://scfcdv.github.io/metubusi3/" target="_blank"><span>目潰し2</span></a>
+<a class="btn btn-border" href="https://scfcdv.github.io/metubusi4/" target="_blank"><span>目潰し3</span></a>
+<a class="btn btn-border" href="https://scfcdv.github.io/tetorisu5/" target="_blank"><span>新テトリス</span></a>
+<a class="btn btn-border" href="https://scfcdv.github.io/tetorisu7/" target="_blank"><span>新新テトリス</span></a>
+<a class="btn btn-border" href="https://scfcdv.github.io/uirusu7/" target="_blank"><span>ウイルス</span></a>
+<a class="btn btn-border" href="https://scfcdv.github.io/GOD5/" target="_blank"><span>強化ウイルス</span></a>
+<a class="btn btn-border" href="https://scfcdv.github.io/douga4/" target="_blank"><span>動画</span></a>
+<a class="btn btn-border" href="https://scfcdv.github.io/blocker/" target="_blank"><span>ブロック崩し</span></a>
+<a class="btn btn-border" href="https://scfcdv.github.io/suttoppu/" target="_blank"><span>ストップウォッチ</span></a>
+<a class="btn btn-border" href="https://scfcdv.github.io/kamera/" target="_blank"><span>カメラ</span></a>
+<a id="gd-menu" class="btn btn-border" href="https://scfcdv.github.io/kousinn4/" target="_blank"><span>更新履歴</span></a>
+<a id="gd-menu2" class="btn btn-border" href="https://scfcdv.github.io/setumei4/" target="_blank"><span>説明</span></a>
+<a id="gd-menu3" class="btn btn-border" href="https://scfcdv.github.io/sakusya/" target="_blank"><span>作者</span></a>
+<h1 id="gd-menu4">home999web</h1>
+<button id="gd-menu5" class="btn btn-border" onclick="buttonClicked()">市</button>
+<button id="gd-menu6" class="btn btn-border" onclick="buttonClicked2()">デフォルト</button>
+<button id="gd-menu7" class="btn btn-border" onclick="buttonClicked3()">黒</button>
+<button id="gd-menu8" class="btn btn-border" onclick="buttonClicked4()">白</button>
+<button id="gd-menu9" class="btn btn-border" onclick="buttonClicked5()">目潰し1</button>
+<button id="gd-menu10" class="btn btn-border" onclick="buttonClicked6()">目潰し2</button>
+<button id="gd-menu11" class="btn btn-border" onclick="buttonClicked7()">目潰し3</button>
+<button id="gd-menu12" class="btn btn-border" onclick="set_visibility();">設定</button>
+</body>
+</html>
