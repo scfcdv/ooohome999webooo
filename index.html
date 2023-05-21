@@ -1,4 +1,11 @@
-<head>
+<script>
+getWindowSize();
+function getWindowSize() {
+var W,H;
+W = window.innerWidth;
+H = window.innerHeight;}
+</script>
+<div id="A" class="relative" style="z-index:10000; width: 50%; height: 80%; background-color: white; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>
 <style>
 body {
 background-size: cover;
@@ -11,43 +18,17 @@ background-position: center center;}
 function set_visibility() {
 document.getElementById("square").style.display = "none";}
 </script>
-<div id="square" style="width: 815px; height: 700px; background-color: white; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 8px 16px 0 rgba(0, 0, 0, 0.15);">
+<div id="square" style="width: 44%; height: 75%; background-color: white; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 8px 16px 0 rgba(0, 0, 0, 0.15);">
 </div>
 <script>
 var a = 1
 function set_visibility() {
 if (a === 0){
 a = 1
-document.getElementById('gd-menu5').style.visibility = 'hidden'
-document.getElementById('gd-menu6').style.visibility = 'hidden'
-document.getElementById('gd-menu7').style.visibility = 'hidden'
-document.getElementById('gd-menu8').style.visibility = 'hidden'
-document.getElementById('gd-menu9').style.visibility = 'hidden'
-document.getElementById('gd-menu10').style.visibility = 'hidden'
-document.getElementById('gd-menu11').style.visibility = 'hidden'
-document.getElementById('gd-menu13').style.visibility = 'hidden'
-document.getElementById('gd-menu14').style.visibility = 'hidden'
-function sleep(waitMsec) {
-var startMsec = new Date();
-while (new Date() - startMsec < waitMsec);}
-sleep(550);
-document.getElementById('square').style.visibility = 'hidden'
+document.getElementById('A').style.visibility = 'visible'
 }else{
 a = 0
-document.getElementById('gd-menu5').style.visibility = 'visible'
-document.getElementById('gd-menu6').style.visibility = 'visible'
-document.getElementById('gd-menu7').style.visibility = 'visible'
-document.getElementById('gd-menu8').style.visibility = 'visible'
-document.getElementById('gd-menu9').style.visibility = 'visible'
-document.getElementById('gd-menu10').style.visibility = 'visible'
-document.getElementById('gd-menu11').style.visibility = 'visible'
-document.getElementById('gd-menu13').style.visibility = 'visible'
-document.getElementById('gd-menu14').style.visibility = 'visible'
-function sleep(waitMsec) {
-var startMsec = new Date();
-while (new Date() - startMsec < waitMsec);}
-sleep(550);
-document.getElementById('square').style.visibility = 'visible'}}
+document.getElementById('A').style.visibility = 'hidden'}}
 </script>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
@@ -103,73 +84,73 @@ background-image: url("a.jpg");}
 #gd-menu {
 margin:0;
 position: fixed;
-bottom: 10px;
-left: 10px;}
+bottom: 1.0764262648%;
+left: 0.52083333333%;}
 #gd-menu2 {
 margin:0;
 position: fixed;
-bottom: 10px;
-left: 148px;}
+bottom: 1.0764262648%;
+left: 7.70833333333%;}
 #gd-menu3 {
 margin:0;
 position: fixed;
-bottom: 10px;
-left: 250px;}
+bottom: 1.0764262648%;
+left: 13.0208333333%;}
 #gd-menu4 {
 margin:0;
 position: fixed;
-bottom: 10px;
-right: 10px;}
+bottom: 1.0764262648%;
+right: 0.52083333333%;}
 #gd-menu5 {
 margin:0;
 position: fixed;
-bottom: 755px;
-left: 560px;}
+bottom: 81.270182992%;
+left: 29.1%;}
 #gd-menu6 {
 margin:0;
 position: fixed;
-bottom: 755px;
-left: 667px;}
+bottom: 81.270182992%;
+left: 33.7%;}
 #gd-menu7 {
 margin:0;
 position: fixed;
-bottom: 755px;
-left: 844px;}
+bottom: 81.270182992%;
+left: 42.0%;}
 #gd-menu8 {
 margin:0;
 position: fixed;
-bottom: 755px;
-left: 952px;}
+bottom: 81.270182992%;
+left: 46.6%;}
 #gd-menu9 {
 margin:0;
 position: fixed;
-bottom: 755px;
-left: 1061px;}
+bottom: 81.270182992%;
+left: 51.3%;}
 #gd-menu10 {
 margin:0;
 position: fixed;
-bottom: 755px;
-left: 1216px;}
+bottom: 81.270182992%;
+left: 58.6%;}
 #gd-menu11 {
 margin:0;
 position: fixed;
-bottom: 700px;
-left: 560px;}
+bottom: 74.3498385361%;
+left: 29.1666666667%;}
 #gd-menu12 {
 margin:0;
 position: fixed;
-bottom: 0px;
-right: 160px;}
+bottom: 1.0764262648%;
+right: 8.33333333333%;}
 #gd-menu13 {
 margin:0;
 position: fixed;
-bottom: 700px;
-left: 715px;}
+bottom: 74.3498385361%;
+left: 37.2395833333%;}
 #gd-menu14 {
 margin:0;
 position: fixed;
-bottom: 700px;
-left: 860px;}
+bottom: 74.3498385361%;
+left: 44.7916666667%;}
 *,
 *:before,
 *:after {
@@ -270,7 +251,7 @@ gtag('config', 'G-ZK7K3YNWQY');
 <meta name="google-site-verification" content="6ZzMon_VzD_6WoH8Sl_lkzlF_47s0Yygwh9dDU2JHfQ" />
 </head>
 <body>
-<a class="btn btn-border" href="https://scfcdv.github.io/4444/" target="_blank"><span>カオス</span></a>
+<a class="btn btn-border" href="https://scfcdv.github.io/4444/" target="_blank"><span>カオス&nbsp;</span></a>
 <a class="btn btn-border" href="https://scfcdv.github.io/bennri/" target="_blank"><span>便利</span></a>
 <a class="btn btn-border" href="https://scfcdv.github.io/metubusi/" target="_blank"><span>目潰し</span></a>
 <a class="btn btn-border" href="https://scfcdv.github.io/metubusi3/" target="_blank"><span>目潰し2</span></a>
@@ -287,15 +268,15 @@ gtag('config', 'G-ZK7K3YNWQY');
 <a id="gd-menu2" class="btn btn-border" href="https://scfcdv.github.io/setumei4/" target="_blank"><span>説明</span></a>
 <a id="gd-menu3" class="btn btn-border" href="https://scfcdv.github.io/sakusya/" target="_blank"><span>作者</span></a>
 <h1 id="gd-menu4">home999web</h1>
-<button id="gd-menu5" class="btn btn-border" onclick="buttonClicked()">市</button>
-<button id="gd-menu6" class="btn btn-border" onclick="buttonClicked2()">デフォルト</button>
-<button id="gd-menu7" class="btn btn-border" onclick="buttonClicked3()">黒</button>
-<button id="gd-menu8" class="btn btn-border" onclick="buttonClicked4()">白</button>
-<button id="gd-menu9" class="btn btn-border" onclick="buttonClicked5()">目潰し1</button>
-<button id="gd-menu10" class="btn btn-border" onclick="buttonClicked6()">目潰し2</button>
-<button id="gd-menu11" class="btn btn-border" onclick="buttonClicked7()">目潰し3</button>
-<button id="gd-menu13" class="btn btn-border" onclick="buttonClicked8()">匿名M</button>
-<button id="gd-menu14" class="btn btn-border" onclick="buttonClicked9()">ホラー</button>
-<button id="gd-menu12" class="btn btn-border" onclick="set_visibility();">設定</button>
+<a id="gd-menu5" class="btn btn-border" onclick="buttonClicked();">&nbsp;<span>市</span></a>
+<a id="gd-menu6" class="btn btn-border" onclick="buttonClicked2();">&nbsp;<span>デフォルト</span></a>
+<a id="gd-menu7" class="btn btn-border" onclick="buttonClicked3();">&nbsp;<span>黒</span></a>
+<a id="gd-menu8" class="btn btn-border" onclick="buttonClicked4();"><span>白</span></a>
+<a id="gd-menu9" class="btn btn-border" onclick="buttonClicked5();"><span>目潰し1</span></a>
+<a id="gd-menu10" class="btn btn-border" onclick="buttonClicked6();"><span>目潰し2</span></a>
+<a id="gd-menu11" class="btn btn-border" onclick="buttonClicked7();"><span>目潰し3</span></a>
+<a id="gd-menu13" class="btn btn-border" onclick="buttonClicked8();"><span>匿名M</span></a>
+<a id="gd-menu14" class="btn btn-border" onclick="buttonClicked9();"><span>ホラー</span></a>
+<a id="gd-menu12" class="btn btn-border" onclick="set_visibility();"><span>設定</span></a>
 </body>
 </html>
